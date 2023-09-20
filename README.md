@@ -23,16 +23,16 @@ Before using this script, make sure you have the following:
 
 2. Edit the script to specify the source and destination folder paths you want to compare.
 
-   "python
+   ```python
    source_folder_path = "/Volumes/2TB/MusicBackup"
    destination_folder_path = "/Volumes/2TB/Music/Music/"
-   "python
+   ```
 
 3. Run the script using Python:
 
-   "bash
+   ```python
    python apple_music_library_comparison.py
-   "bash
+   ```
 
 #### How It Works
 
@@ -52,10 +52,7 @@ The log file will contain the following information:
 - Missing files and their full paths
 - The log file will also include the total number of missing files.
 
-Example log file entry:
-
-example_file.mp3 - Hash: 3a4f53c7a2d0e3e7e23c49b13650b617567c1bbd - Full Path: /Volumes/2TB/MusicBackup/example_file.mp3
-
+An example log output is included 'comparison_log (example).txt'
 
 ---
 
@@ -80,18 +77,18 @@ To use the Apple Music Library File Management Script, follow these steps:
 
 2. Edit the script to specify the following parameters:
 
-   "python
+   ```python
    source_folder_path = "/Volumes/2TB/MusicBackup/"
    destination_folder_path = "/Volumes/2TB/Music/Music/"
    missing_files_path = "/Volumes/2TB/Missing/"
    max_missing_files_prompt = 100  # Maximum number of missing files before prompting the user
-   "python
+   ```
 
 3. Run the script using Python:
 
-   "bash
+   ```python
    python apple_music_library_file_management.py
-   "bash
+   ```
 
 #### How It Works
 
