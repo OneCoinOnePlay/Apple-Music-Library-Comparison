@@ -1,4 +1,4 @@
-# Apple Music Library Comparison Script
+# Apple Music Library Comparison
 
 This Python script is designed for comparing files in an Apple Music library between two specified folders and generating a log file containing information about missing files. It can be useful for verifying the integrity of backups or ensuring that files are correctly synchronized between two directories. The script performs a one-way comparison from the source folder to the destination folder.
 
